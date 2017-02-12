@@ -1,1 +1,11 @@
+Value Iface ([\d\w/-]+)
+Value Status ([\S\s]+)
+Value Protocol ([\S\s]+)
+Value LastInput ([\d\w:]+)
+Value LastOutput ([\d\w:]+)
 
+
+
+Start
+  ^${Iface} is ${Status}, line protocol is ${Protocol}
+  ^\s+Last input ${LastInput}, output ${LastOutput} -> Record
