@@ -1,0 +1,607 @@
+sh inter
+Vlan1 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e940 (bia 001f.26d7.e940)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:01, output never, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     1049855 packets input, 183339385 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan2 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e941 (bia 001f.26d7.e941)
+  Internet address is 10.101.3.248/23
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 3000 bits/sec, 3 packets/sec
+  5 minute output rate 1000 bits/sec, 2 packets/sec
+     137173544 packets input, 13953413707 bytes, 0 no buffer
+     Received 0 broadcasts (10478 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     99781273 packets output, 10181323883 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan3 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e942 (bia 001f.26d7.e942)
+  Internet address is 10.101.11.254/23
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/17068/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 6000 bits/sec, 12 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     274980176 packets input, 20580651020 bytes, 0 no buffer
+     Received 0 broadcasts (33281 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     82708875 packets output, 10791488471 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan4 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e943 (bia 001f.26d7.e943)
+  Internet address is 10.15.7.248/22
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:50
+  Last input 00:00:00, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/40/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 3000 bits/sec, 6 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     179839422 packets input, 15340115457 bytes, 0 no buffer
+     Received 0 broadcasts (2905320 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     15908499 packets output, 1021016784 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan6 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e944 (bia 001f.26d7.e944)
+  Internet address is 192.168.6.254/24
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:27, output 12:12:08, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     369916 packets input, 22194960 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     80 packets output, 5120 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan39 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e945 (bia 001f.26d7.e945)
+  Internet address is 10.101.225.62/26
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:27, output 12:12:08, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     379469 packets input, 23026556 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     1464 packets output, 110104 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan50 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e946 (bia 001f.26d7.e946)
+  Internet address is 172.19.1.254/23
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:27, output 12:12:08, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     369913 packets input, 22194780 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     86 packets output, 5504 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan61 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e947 (bia 001f.26d7.e947)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:27, output 30w5d, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     668818 packets input, 51059473 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     12 packets output, 3774 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan70 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e948 (bia 001f.26d7.e948)
+  Internet address is 10.101.232.62/26
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:01:46, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     11091758 packets input, 875584864 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     343929 packets output, 22017778 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan71 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e949 (bia 001f.26d7.e949)
+  Internet address is 10.101.232.126/26
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:01, output 00:00:09, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     7109047 packets input, 444593251 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     766623 packets output, 67111922 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan72 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e94a (bia 001f.26d7.e94a)
+  Internet address is 10.101.232.254/26
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:27, output 12:12:08, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     369897 packets input, 22193820 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     225 packets output, 14400 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan99 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e94b (bia 001f.26d7.e94b)
+  Internet address is 192.168.99.254/24
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     19902829 packets input, 2651849068 bytes, 0 no buffer
+     Received 0 broadcasts (13 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     20599272 packets output, 1486871165 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan310 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e94c (bia 001f.26d7.e94c)
+  Internet address is 10.101.237.254/23
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:00, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     27544945 packets input, 2094836960 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     361293 packets output, 23125736 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan350 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e952 (bia 001f.26d7.e952)
+  Internet address is 10.101.234.126/25
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 0/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:27, output 00:16:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     465970 packets input, 27969463 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     37802 packets output, 2419328 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan351 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e94d (bia 001f.26d7.e94d)
+  Internet address is 10.101.235.254/24
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:27, output 00:13:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     438131 packets input, 26299763 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     46984 packets output, 3007796 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan401 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e94e (bia 001f.26d7.e94e)
+  Internet address is 10.101.223.126/25
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:00, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 2 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     34978941 packets input, 2247837688 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     339629 packets output, 21800049 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan402 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e94f (bia 001f.26d7.e94f)
+  Internet address is 10.101.223.254/25
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:01, output 00:03:25, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     14328325 packets input, 861536093 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     76835 packets output, 4982095 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan403 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e950 (bia 001f.26d7.e950)
+  Internet address is 10.101.224.254/24
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     1808599 packets input, 108756351 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     1635495 packets output, 105044804 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Vlan404 is up, line protocol is up 
+  Hardware is EtherSVI, address is 001f.26d7.e951 (bia 001f.26d7.e951)
+  Internet address is 10.101.225.78/27
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 00:04:55
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     4424115 packets input, 493029215 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     3292776 packets output, 1511099835 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/1 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 001f.26d7.e901 (bia 001f.26d7.e901)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Full-duplex, 1000Mb/s, link type is auto, media type is 10/100/1000BaseTX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:02, output 00:00:09, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 757000 bits/sec, 365 packets/sec
+  5 minute output rate 473000 bits/sec, 212 packets/sec
+     92154041200 packets input, 44779755804530 bytes, 0 no buffer
+     Received 39233110 broadcasts (38631988 multicasts)
+     0 runts, 0 giants, 0 throttles
+     278591 input errors, 278591 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 38631988 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     42837682436 packets output, 15201267810056 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/2 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 001f.26d7.e902 (bia 001f.26d7.e902)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 13/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Full-duplex, 1000Mb/s, link type is auto, media type is 1000BaseLX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:06, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 2681
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 53652000 bits/sec, 4933 packets/sec
+  5 minute output rate 3331000 bits/sec, 1514 packets/sec
+     50153796285 packets input, 60335948144604 bytes, 0 no buffer
+     Received 125880805 broadcasts (39672910 multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 39672910 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     33446617616 packets output, 9457488984959 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/3 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 001f.26d7.e903 (bia 001f.26d7.e903)
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Auto-duplex, Auto-speed, link type is force-up, media type is Not Present
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/4 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 001f.26d7.e904 (bia 001f.26d7.e904)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Full-duplex, 1000Mb/s, link type is auto, media type is 1000BaseLX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:47, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 748000 bits/sec, 127 packets/sec
+  5 minute output rate 283000 bits/sec, 140 packets/sec
+     3766021131 packets input, 2763131607687 bytes, 0 no buffer
+     Received 16210544 broadcasts (7233062 multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 7233062 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     5012953700 packets output, 1991499929272 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/5 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 001f.26d7.e905 (bia 001f.26d7.e905)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 22/255, rxload 3/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Full-duplex, 1000Mb/s, link type is auto, media type is 10/100/1000BaseTX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:01, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 10417532
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 12221000 bits/sec, 5283 packets/sec
+  5 minute output rate 89001000 bits/sec, 11109 packets/sec
+     160766925440 packets input, 151281577987524 bytes, 0 no buffer
+     Received 238478102 broadcasts (187079658 multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 187079658 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     254426251583 packets output, 307851158333820 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/6 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 001f.26d7.e906 (bia 001f.26d7.e906)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Full-duplex, 1000Mb/s, link type is auto, media type is 10/100/1000BaseTX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:09, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 9000 bits/sec, 6 packets/sec
+  5 minute output rate 71000 bits/sec, 52 packets/sec
+     2697419376 packets input, 1819056372661 bytes, 0 no buffer
+     Received 5082451 broadcasts (5082451 multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 5082451 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     3391160631 packets output, 1277656280929 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/7 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 001f.26d7.e953 (bia 001f.26d7.e953)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 0/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Full-duplex, 1000Mb/s, link type is auto, media type is 10/100/1000BaseTX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:42, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 36w4d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 4881
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     8887286494 packets input, 4277224550227 bytes, 0 no buffer
+     Received 411002 broadcasts (411002 multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 411002 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     5221940991 packets output, 3376644064253 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+     0 output buffer failures, 0 output buffers swapped out
+
