@@ -1,0 +1,27 @@
+z = {'trunk': 'ALL VLANS','1':'default', '17':' Film-Fabriken', '113':'Videra-Video', '114':'IPIM', '150':'Asure_Panel', '151':'Safety & Security', '222':'IIS-Mobile', '253':'Network_MGMT', '400':'DMZ', '444':'Internet'}
+f = open('switch-1.txt')
+data = f.readlines()
+lines = [line.strip() for line in data]
+for line in lines:
+    a = line.find(" ",)
+    iface = line[:a]
+    b = line.find("connected")
+    c = line.find("notconnect")
+    d = line.find("disabled")
+    e = line.find(" ", b+13)
+    f = line.find(" ", e)
+    g = line.find(" ", c+14)
+    h = line.find(" ", d+14)
+    if b > 0:
+        l = line[b+13:e]
+        #print l
+        print iface+","+line[b+13:e]+","+z[l]
+    elif c > 0:
+        m = line[c+13:g]
+        print iface+","+line[c+13:g]+","+z[m]
+    elif d > 0:
+        n = line[d+13:h]
+        #print n
+        print iface+","+line[d+12:h]+","+z[n]
+    else:
+        print "something wrong"
